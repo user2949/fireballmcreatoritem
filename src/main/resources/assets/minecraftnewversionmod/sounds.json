@@ -1,0 +1,10 @@
+{
+  "supermusicussr": {
+    "sounds": [
+      {
+        "name": "minecraftnewversionmod:ussr",
+        "stream": false
+      }
+    ]
+  }
+}
