@@ -1,0 +1,110 @@
+{
+  "mod_elements": [
+    {
+      "name": "EasyCharcoalCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "easy_charcoal_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraftnewversionmod/recipes/easy_charcoal_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "EasySpawnerCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "easy_spawner_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraftnewversionmod/recipes/easy_spawner_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "FireballSpawnerRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireball_spawner_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftnewversionmod/procedures/FireballSpawnerRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireballSpawnerItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireball_spawner_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftnewversionmod/item/FireballSpawnerItemItem.java",
+          "src/main/resources/assets/minecraftnewversionmod/models/item/fireball_spawner_item.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "supermusicussr",
+      "files": [
+        "ussr"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "item.minecraftnewversionmod.fireball_spawner_item": "Fireball Spawner Item",
+      "subtitles.supermusicussr": "",
+      "subtitles.soundfilegroup1": ""
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "minecraftnewversionmod",
+    "modName": "minecraftnewversionmod",
+    "version": "1.0.0",
+    "author": "Administrator, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.minecraftnewversionmod"
+  },
+  "mcreatorVersion": 202400118518
+}
